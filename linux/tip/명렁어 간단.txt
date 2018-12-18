@@ -1,0 +1,7 @@
+find . -name "bapi.*.gz" -exec chmod 777 {} \;
+
+여러 파일 gz풀기
+find . -name "bapi.*.gz" -exec gzip -d {} \;
+
+find . -name "bapi.*.gz" -exec grep -r "/api/qtraining" {} \;
+find . -name "bapi.*-*" -exec grep -r "/api/qtraining" {} \;
