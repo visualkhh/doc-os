@@ -1,0 +1,58 @@
+alias cl='clear'
+alias ll='ls -alhT'
+alias ls='ls -vGF'
+alias rm='rm -i'
+alias cp='cp -i'
+alias mv='mv -i'
+alias vcode="open -a Visual\ Studio\ Code.app"
+alias jcode="open -a IntelliJ\ IDEA"
+
+export PS1='\w$\n'
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home
+
+##omnifit project
+export OMNIFIT_HOME=/Users/visualkhh/project/omnicns/omnifit
+export OMNIFIT_NFS=/Users/visualkhh/project/omnicns/omnifit/nfs
+export OMNIFIT_EN_HOME=/Users/visualkhh/project/omnicns/omnifit
+export OMNIFIT_EN_NFS=/Users/visualkhh/project/omnicns/omnifit/nfs
+export OMNIFIT_MARIA_HOME=/Users/visualkhh/project/omnicns/omnifit-maria
+export OMNIFIT_MARIA_NFS=/Users/visualkhh/project/omnicns/omnifit-maria/nfs
+export OMNIFIT_GE_HOME=/Users/visualkhh/project/omnicns/omnifit-ge
+export OMNIFIT_GE_NFS=/Users/visualkhh/project/omnicns/omnifit-ge/nfs
+export OMNIFIT_EDU_HOME=/Users/visualkhh/project/omnicns/omnifit-edu
+export OMNIFIT_EDU_NFS=/Users/visualkhh/project/omnicns/omnifit-edu/nfs
+export OMNIFIT_CERAGEM_HOME=/Users/visualkhh/project/omnicns/omnifit-ceragem
+export OMNIFIT_CERAGEM_NFS=/Users/visualkhh/project/omnicns/omnifit-ceragem/nfs
+export OMNIFIT_BT_HOME=/Users/visualkhh/project/omnicns/omnifit-brain-training
+export OMNIFIT_BT_NFS=/Users/visualkhh/project/omnicns/omnifit-brain-training/nfs
+export OMNIFIT_JUNIOR_HOME=/Users/visualkhh/project/omnicns/omnifit-junior
+export OMNIFIT_JUNIOR_NFS=/Users/visualkhh/project/omnicns/omnifit-junior/nfs
+export NLS_LANG=KOREAN_KOREA.KO16KSC5601
+export NLS_DATE_FORMAT="YYYY/MM/DD HH24:MI:SS"
+export GRADLE_HOME=/Users/visualkhh/install/gradle-5.6.2
+export GRADLE_USER_HOME=$GRADLE_HOME/user
+ 
+export ANDROID_SDK_HOME=$HOME/Library/Android/sdk
+export PATH=$PATH:$GRADLE_HOME/bin
+export PATH=$PATH:$ANDROID_SDK_HOME/emulator
+export PATH=$PATH:$ANDROID_SDK_HOME/tools
+export PATH=$PATH:$ANDROID_SDK_HOME/tools/bin
+export PATH=$PATH:$ANDROID_SDK_HOME/platform-tools
+export PATH=$PATH:$ANDROID_SDK_HOME/avd
+
+#mysql
+export MYSQL_HOME=/usr/local/mysql
+export PATH=$PATH:$MYSQL_HOME/bin
+
+#flutter
+FLUTTER_PATH=$HOME/install/flutter/bin
+PUB_CACHE_BIN=$HOME/install/flutter/.pub-cache/bin
+DART_PATH=$HOME/install/flutter/bin/cache/dart-sdk/bin
+export PATH=$PATH:$FLUTTER_PATH:$PUB_CACHE_BIN:$DART_PATH
+
+# Setting PATH for Python 3.7
+# The original version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/3.7/bin:${PATH}"
+PATH="/Users/visualkhh/install/gradle-4.9/bin:${PATH}"
+export PATH
+
